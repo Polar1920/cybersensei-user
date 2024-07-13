@@ -1,0 +1,82 @@
+.info-modulo {
+    background-color: #ffffff;
+    border-radius: 40px 40px 0 0;
+    box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -1px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    position: relative;
+}
+
+.info-header {
+    position: relative;
+    height: 20vh;
+    /* Ajusta según el porcentaje de la altura deseada */
+    overflow: hidden;
+}
+
+.module-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ajusta la imagen para cubrir el contenedor */
+}
+
+.module-title {
+    /* Ajusta según el diseño deseado */
+    color: #000000;
+    /* Color del texto */
+    font-size: 2em;
+    /* Ajusta el tamaño de fuente según sea necesario */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.dashboard {
+    background-color: #ffffff;
+    border-radius: 0 0 40px 40px;
+    padding: 20px;
+}
+
+.module-description {
+    padding: 20px;
+}
+
+.modulos {
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    /* Muestra las tarjetas en columna */
+    gap: 20px;
+    /* Espacio entre las tarjetas */
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 1px 4px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 100%;
+    /* Ajusta el ancho para ocupar toda la pantalla */
+    max-width: 100%;
+}
+
+.card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    /* Cambia a fila para alinear horizontalmente */
+    align-items: center;
+    /* Alinea verticalmente el título y el icono */
+    justify-content: space-between;
+    /* Distribuye el espacio entre elementos */
+}
+
+.card-title-container {
+    /* Eliminamos los estilos que ya no son necesarios */
+}
+
+.card-check {
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,33 @@
+button.ant-btn.css-dev-only-do-not-override-f7vrd6.ant-btn-primary, a.ant-btn.css-dev-only-do-not-override-f7vrd6.ant-btn-primary, a.ant-btn.css-dev-only-do-not-override-f7vrd6.ant-btn-primary{    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 220px!important;
+    height: 40px!important;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    background-color: #72abf2!important;
+    color: white!important;
+    letter-spacing: .05em; /* Espacio entre letras */
+}
+
+div#root{
+    background-color: white!important;
+}
+
+
+.sign-container p{
+    margin-top: 0;
+    margin-inline: 20px;
+}
+
+.home h3 p{
+    align-self: center;
+}
+
+.sign-container .home a.ant-btn.css-dev-only-do-not-override-f7vrd6.ant-btn-primary{
+    margin:0
+}
+
+a.ant-btn.css-dev-only-do-not-override-f7vrd6.ant-btn-primary{
+    display: block!important;
+}

@@ -1,0 +1,20 @@
+.ant-descriptions-title{
+    margin-left: 20px;
+}
+
+.ant-card-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+
+button.ant-btn.css-dev-only-do-not-override-f7vrd6.ant-btn-default{
+    display: inline;
+    margin-right: 10px;
+}
+
+tbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

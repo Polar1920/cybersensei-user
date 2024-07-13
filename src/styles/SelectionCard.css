@@ -1,0 +1,54 @@
+/* src/components/SelectionCard.css */
+.selection-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(212, 241, 244, 0.61);
+  text-decoration: none;
+  color: inherit;
+  padding: 16px;
+  user-select: none;
+}
+
+.selection-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.selection-card.color1 {
+  background-color: #d4f1f4;
+  /* Ejemplo de color con hexadecimales */
+}
+
+.selection-card.color2 {
+  background-color: #ffc0f1;
+  /* Otro ejemplo de color */
+}
+
+.selection-card-title {
+  margin: 0;
+  padding: 16px;
+  font-size: 18px;
+}
+
+.selection-card-subtitle {
+  margin: 0;
+  font-size: 14px;
+  color: gray;
+}
+
+.selection-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selection-card-image {
+  width: 100px;
+  object-fit: cover;
+}
